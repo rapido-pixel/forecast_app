@@ -13,6 +13,6 @@ opencv-python==4.2.0.34
 peewee==3.13.2
 Pillow==7.0.0
 psycopg2-binary==2.8.5
-requests==2.7.0
+requests==2.20.0
 soupsieve==2.0
 urllib3==1.25.8
