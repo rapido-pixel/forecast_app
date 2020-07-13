@@ -6,7 +6,11 @@ import locale
 
 locale.setlocale(locale.LC_ALL, "ru_RU.UTF-8")
 
-db = PostgresqlDatabase(database="forecast", user="postgres", password="1", host="localhost")
+DATABASE = "" # database name
+USER = "" # username
+PASSWORD = ""
+
+db = PostgresqlDatabase(database=DATABASE, user=USER, password=PASSWORD, host="localhost")
 
 
 class WeatherForecasts(Model):
